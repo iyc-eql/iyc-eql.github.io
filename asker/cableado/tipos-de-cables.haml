@@ -1,0 +1,144 @@
+%map{ lang: 'es', context: 'tipos de cables', version: '1' }
+
+    %concept
+        %names Cable
+        %tags cable, conductor, electricidad, corriente
+        %def Conductor eléctrico que se utiliza para transportar corriente eléctrica de un lugar a otro.
+        %table{ fields: 'tipos' }
+            %row Unipolares
+            %row Multipolares
+            %row Esmaltados
+            %row Fibra óptica
+            %row Circuitos impresos
+        %table{ fields: 'partes' }
+            %row Conductor
+            %row Aislante
+
+    %concept
+        %names Calibre 
+        %tags calibre, cable, conductor, electricidad, corriente
+        %def Medida que indica el grosor de un cable.
+
+    %concept
+        %names Conductor 
+        %tags conductor, electricidad, corriente
+        %def Material que permite el paso de la corriente eléctrica.
+        %def Los materiales más comunes son el cobre y el aluminio.        
+        %table{ fields: 'tipos' }
+            %row Cobre
+            %row Aluminio
+            %row Oro
+            %row Plata
+
+    %concept 
+        %names Aislante
+        %tags aislante, electricidad, corriente
+        %def Material que no permite el paso de la corriente eléctrica.
+        %def Se utiliza para recubrir los conductores eléctricos y evitar cortocircuitos.
+        %table{ fields: 'tipos' }
+            %row Plástico
+            %row Goma
+            %row Papel
+            %row Madera
+
+    %concept
+        %names Cable unipolar
+        %tags cable, conductor, electricidad, corriente
+        %def Formado por un único cable conductor.
+        %def Hay que tener cuidado al pelarlo para no cortar el conductor.
+        %table{ fields: 'tipos, características' }
+            %row 
+                %col Flexible
+                %col Formado por muchos alambres finos
+            %row 
+                %col Rígido
+                %col Formado por un solo alambre (hilo)
+
+    %concept
+        %names Cable multipolar
+        %tags cable, conductor, electricidad, corriente
+        %def Formado por varios cables unipolares.
+        %def Se agrupan en una misma cubierta, funda o aislante.
+        %table{ fields: 'tipos' }
+            %row Multipolares tipo manguera
+            %row Apantallados 
+            %row De cinta
+
+    %concept
+        %names Cable multipolar tipo manguera
+        %tags cable, conductor, electricidad, corriente
+        %def Formado por varios cables unipolares con una funda común.
+        %def Se utilizan para dar corriente a aparatos eléctricos.
+        %table{ fields: 'tipos, conductores, circuitos' }
+            %row 
+                %col Bipolar
+                %col Dos conductores
+                %col Monofásicos
+            %row 
+                %col Tripolar
+                %col Tres conductores
+                %col Bifásicos
+            %row 
+                %col Tetrapolar
+                %col Cuatro conductores
+                %col Trifásicos
+
+    %concept
+        %names Cable apantallado
+        %tags cable, conductor, electricidad, corriente
+        %def Formado por varios cables unipolares con una malla metálica.
+        %def Se utilizan para evitar interferencias electromagnéticas.
+        %def Se utilizan en instalaciones de audio y telecomunicaciones.
+        %def La malla evita interferencias electromagnéticas.
+        %def La malla se conecta como un cable más.
+
+    %concept
+        %names Cable de cinta, Cable plano flexible
+        %tags cable, conductor, electricidad, corriente
+        %def Está formado por varios conductores flexibles unidos en línea.
+        %table{ fields: 'tipos, identificación' }
+            %row 
+                %col Multicolor
+                %col El cable marrón es el pin 1.
+            %row
+                %col Monocolor
+                %col Se marca en rojo el lado del pin 1.
+
+    %concept
+        %names Cable esmaltado
+        %tags cable, conductor, electricidad, corriente
+        %def Cable rígido aislado por barniz o esmalte.        
+        %def Para conectarlos se debe retirar el esmalte de los extremos.
+        %table{fields: 'usos'}
+            %row Motores eléctricos
+            %row Transformadores
+            %row Bobinados
+        %table{ fields: 'modos de retirar el esmalte' }
+            %row
+                %col Lija
+                %col Lijar los extremos
+            %row
+                %col Calor
+                %col Calentar los extremos
+            %row
+                %col Químico
+                %col Baño de ácido o disolvente
+        
+    %concept
+        %names Cable de fibra óptica
+        %tags cable, conductor, electricidad, corriente
+        %def Formado por fibras de vidrio o plástico.
+        %def Se utilizan para transmitir información a gran velocidad.
+        %def La información se transmite mediante pulsos de luz.
+        %def La unión de cables requiere herramientas especiales (fusionadora).
+        %def Se utiliza en sistemas de audio de alta calidad y en redes de telecomunicaciones.
+        %def TOSLink es un conector de audio que utiliza este tipo de cables.
+    
+    %concept
+        %names Placa de circuito impreso, PCB, Printed Circuit Board
+        %tags placa, circuito, electricidad, corriente
+        %def Placa de material aislante con circuitos impresos.
+        %def Se utilizan para montar componentes electrónicos.
+        %def Los cables son pistas de cobre adheridas a la placa de material aislante.
+        %def Suele ser de fibra de vidrio o baquelita.
+        %def La unión de componentes se hace mediante soldadura blanda.
