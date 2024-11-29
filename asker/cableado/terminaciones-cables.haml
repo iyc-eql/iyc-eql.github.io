@@ -1,0 +1,96 @@
+%map{ lang: 'es', context: 'terminaciones de cables', version: '1' }
+
+    %concept
+        %names Terminaciones de cables
+        %tags cables, electricidad, corriente, terminaciones
+        %def Son conectores o piezas al final de los cables.
+
+    %concept
+        %names Crimpado, Engastado 
+        %tags cables, electricidad, corriente, crimpado, engastado
+        %def{:type => 'image_url'} https://raw.githubusercontent.com/iyc-eql/iyc-eql.github.io/main/asker/cableado/images/crimpadora_01.jpg
+        %def Consiste en poner terminales o punteras en los extremos de los cables.
+        %def Se necesita una tenaza de crimpar o engastar (crimpadora)
+        %table{ fields: 'permiten' }
+            %row Cortar
+            %row Pelar
+            %row Crimpar/Engastar
+
+    %concept
+        %names Terminal, Puntera 
+        %tags cables, electricidad, corriente, terminal, puntera
+        %def Tienen un orificio para el cable y un cabezal para conectarlo a un borne del dispositivo.
+
+    %concept
+        %names Terminal de ojal
+        %tags cables, electricidad, corriente, terminal, ojal
+        %def{:type => 'image_url'} https://raw.githubusercontent.com/iyc-eql/iyc-eql.github.io/main/asker/cableado/images/terminal_ojal_01.jpg
+
+    %concept
+        %names Terminal Faston
+        %tags cables, electricidad, corriente, terminal, faston
+        %def{:type => 'image_url'} https://raw.githubusercontent.com/iyc-eql/iyc-eql.github.io/main/asker/cableado/images/terminal_faston_01.jpg
+
+    %concept
+        %names Terminal de horquilla
+        %tags cables, electricidad, corriente, terminal, horquilla
+        %def{:type => 'image_url'} https://raw.githubusercontent.com/iyc-eql/iyc-eql.github.io/main/asker/cableado/images/terminal_horquilla_01.jpg
+
+    %concept
+        %names Terminal de pin
+        %tags cables, electricidad, corriente, terminal, pin
+        %def{:type => 'image_url'} https://raw.githubusercontent.com/iyc-eql/iyc-eql.github.io/main/asker/cableado/images/terminal_pin_01.jpg
+
+    %concept
+        %names Bornes 
+        %tags cables, electricidad, corriente, bornes
+        %def Son conectores que permiten conectar y desconectar cables de forma rápida y segura.
+        %def Permiten conectar y desconectar cables entre sí o con dispositivos.
+        %table{ fields: 'tipos' }
+            %row Regletas o clemas
+            %row Enchufables
+
+    %concept
+        %names Regletas, Clemas
+        %tags cables, electricidad, corriente, regletas, clemas
+        %def{:type => 'image_url'} https://raw.githubusercontent.com/iyc-eql/iyc-eql.github.io/main/asker/cableado/images/regleta_01.jpg
+        %def{:type => 'image_url'} https://raw.githubusercontent.com/iyc-eql/iyc-eql.github.io/main/asker/cableado/images/regleta_02.jpg
+        %def Son conectores que permiten conectar y desconectar cables de forma rápida y segura.
+        %def Los más comunes llevan tornillo para ajustar el cable.
+        %def Los hay para soldar en placas de circuito impreso (PCB)
+        %table{ fields: 'tipos' }
+            %row De tornillo
+            %row De inserción rápida
+            %row Para PCB
+
+    %concept
+        %names Bornes enchufables
+        %tags cables, electricidad, corriente, bornes, enchufables
+        %def{:type => 'image_url'} https://raw.githubusercontent.com/iyc-eql/iyc-eql.github.io/main/asker/cableado/images/borne_enchufable_01.png
+        %def Se pueden conectar y desonectar sin soltar el cableado.
+        %def Se utilizan cuando interesa quitar el cable con facilidad.
+        %table{ fields: 'parte, definición' }            
+            %row 
+                %col Macho
+                %col Conector que se introduce en el conector hembra y se suelda a la PCB.
+            %row 
+                %col Hembra
+                %col Conecta los cables al macho.
+
+    %concept 
+        %names Conectores 
+        %tags cables, electricidad, corriente, conectores
+        %def Son piezas que permiten unir cables de forma rápida y segura.
+        %table{ fields: 'tipos, descripción, ejemplo' }
+            %row 
+                %col Cable-Cable
+                %col Permite conectar grupos de cables entre sí.
+                %col Molex
+            %row 
+                %col Cable-Placa
+                %col Permite conectar cables a placas de circuito impreso.
+                %col USB
+            %row 
+                %col Placa-Placa
+                %col Permite conectar placas de circuito impreso entre sí.
+                %col PCI Express
